@@ -1,0 +1,16 @@
+# Caracteres escapados
+
+| Secuencia          | Significado                                                                                                                                                                                                    |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| \n                 | avance de línea (LF o 0x0A (10) en ASCII)                                                                                                                                                                      |
+|\r                  | retorno de carro (CR o 0x0D (13) en ASCII)                                                                                                                                                                     |
+| \t                 | tabulador horizontal (HT o 0x09 (9) en ASCII)                                                                                                                                                                  |
+| \v                 | tabulador vertical (VT o 0x0B (11) en ASCII) (desde PHP 5.2.5)                                                                                                                                                 |
+| \e                 | escape (ESC o 0x1B (27) en ASCII) (desde PHP 5.4.4)                                                                                                                                                            |
+| \f                 | avance de página (FF o 0x0C (12) en ASCII) (desde PHP 5.2.5)                                                                                                                                                   |
+| \\\                | barra invertida                                                                                                                                                                                                |
+| \$                 | signo de dólar                                                                                                                                                                                                 |
+| \\"                | comillas dobles                                                                                                                                                                                                |
+| \\[0-7]{1,3}       | la secuencia de caracteres que coincida con la expresión regular es un carácter en notación octal, que silenciosamente desborda para encajar en un byte (p.ej. "\400" === "\000")                              |
+| \x[0-9A-Fa-f]{1,2} | la secuencia de caracteres que coincida con la expresión regular es un carácter en notación hexadecimal                                                                                                        |
+| \u{[0-9A-Fa-f]+}   | la secuencia de caracteres que coincida con la expresión regular es un punto de código de Unicode, la cual será imprimida al string como dicha representación UTF-8 del punto de código (añadido en PHP 7.0.0) |
