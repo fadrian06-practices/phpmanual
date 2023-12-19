@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "PHP Manual",
+    }
+  ],
+  "settings": {
+    "lsp_format_on_save": false,
+    "LSP": {
+      "LSP-intelephense": {
+        "settings": {
+          "intelephense.environment.phpVersion": "8.2.13",
+          "intelephense.format.braces": "k&r",
+        },
+      },
+      "LSP-html": {
+        "enabled": true,
+      },
+      "formatters": {
+        "embedding.php": "LSP-intelephense",
+      },
+      "ltex-ls":
+      {
+				"enabled": false,
+			},
+      "marksman":
+      {
+				"enabled": false
+			},
+    },
+  },
+}

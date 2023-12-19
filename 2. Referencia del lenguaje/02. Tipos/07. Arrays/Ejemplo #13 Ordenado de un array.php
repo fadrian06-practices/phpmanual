@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/plain');
+
 // llenar un array con todos los ítems de un directorio
 $handle = opendir('.');
 

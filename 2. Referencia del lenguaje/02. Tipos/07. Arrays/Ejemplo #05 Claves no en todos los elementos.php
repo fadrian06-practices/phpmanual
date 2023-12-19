@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/plain');
+
 $array = array(
   "a",
   "b",

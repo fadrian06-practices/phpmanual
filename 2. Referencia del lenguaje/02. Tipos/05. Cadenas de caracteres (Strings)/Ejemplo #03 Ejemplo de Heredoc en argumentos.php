@@ -2,4 +2,4 @@
 
 var_dump(array(<<<EOD
 foobar!
-EOD));
+EOD)); // La etiqueta de cierre siempre debe ir sin nada por delante

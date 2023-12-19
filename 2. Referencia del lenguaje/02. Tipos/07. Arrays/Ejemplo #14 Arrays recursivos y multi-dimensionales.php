@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/plain');
+
 $frutas = array(
   "frutas"  => array(
     "a" => "naranja",
@@ -22,9 +24,9 @@ $frutas = array(
 );
 
 // Algunos ejemplos que hacen referencia a los valores del array anterior
-echo $frutas["hoyos"][5];    // prints "segundo"
-echo $frutas["frutas"]["a"]; // prints "naranja"
-unset($frutas["hoyos"][0]);  // remove "primero"
+echo $frutas["hoyos"][5] . PHP_EOL;    // imprime "segundo"
+echo $frutas["frutas"]["a"] . PHP_EOL; // imprime "naranja"
+unset($frutas["hoyos"][0]);  // elimina "primero"
 
 // Crear una nueva array multi-dimensional
 $juices["manzana"]["verde"] = "buena";

@@ -5,6 +5,8 @@ function foo() {
   static $bar = <<<LABEL
   Nada aquí...
   LABEL;
+
+  echo $bar;
 }
 
 // Propiedades/constantes de clase

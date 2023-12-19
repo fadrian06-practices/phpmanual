@@ -4,19 +4,19 @@ PHP admite diez tipos primitivos.
 
 Cuatro tipos escalares:
 
-- boolean
-- integer
+- boolean (booleano)
+- integer (entero)
 - float (número de punto flotante, también conocido como double)
-- string
+- string (cadena de caracteres)
 
 Cuatro tipos compuestos:
 
-- array
-- object
-- callable
-- iterable
+- array (arreglo)
+- object (objeto)
+- callable (invocable)
+- iterable (iterable)
 
 Y finalmente dos tipos especiales:
 
-- resource
-- NULL
+- resource (recurso)
+- NULL (nulo)

@@ -1,4 +1,5 @@
 <?php
+
 $número_grande = 9223372036854775807;
 var_dump($número_grande); // int(9223372036854775807)
 
